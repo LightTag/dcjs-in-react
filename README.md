@@ -2,7 +2,7 @@
 
 This is a POC of using DC.JS within a React application. 
 
-[demo](lighttag.github.io/dcjs-in-react/)
+[demo](https://lighttag.github.io/dcjs-in-react/)
 
 ## The Problem
 

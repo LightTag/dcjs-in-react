@@ -2,6 +2,8 @@
 
 This is a POC of using DC.JS within a React application. 
 
+[demo](lighttag.github.io/dcjs-in-react/)
+
 ## The Problem
 
 React is, well React, and DC.JS is a library for making interactive charts and dashboards on high dimensional data. [We](https://www.lighttag.io) want to use DC.JS inside of our react app but they don't play nice. 

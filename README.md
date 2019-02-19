@@ -1,8 +1,8 @@
 # React + DC.JS
 
-This is a POC of using DC.JS within a React application. 
+This is a POC of using [DC.JS within a React application](https://www.lighttag.io/blog/react-dc-js/). 
 
-[demo](https://lighttag.github.io/dcjs-in-react/)
+[demo](https://lighttag.github.io/dcjs-in-react/), [blog post](https://www.lighttag.io/blog/react-dc-js/)
 
 ## The Problem
 
@@ -102,3 +102,5 @@ export const ChartTemplate = props => {
 From there, making a new chart is just writing standard dc.js code as a function, and passing that function as a
 prop to the template component.  Victory! 
 
+## Brought To You By LightTag
+LightTag is a tool for [NLP annotation](https://www.lighttag.io). 

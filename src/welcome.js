@@ -11,7 +11,8 @@ export const Welcome =(props)=>{
         <div>
             <a href={"http://dc-js.github.io/dc.js/"}> DC.js </a> is a charting library based on 
             <a href="http://square.github.io/crossfilter/"> crossfilter </a> and <a href="https://d3js.org/">d3. </a>
-            It allows creating interactive charts with a significant wow factor
+            <br/>It allows creating interactive charts with a significant wow factor<br/>
+            <a href="https://www.lighttag.io/blog/react-dc-js">Read the Blog Post!</a>
         </div>
         <h2>
             What is this ? 
@@ -22,8 +23,12 @@ export const Welcome =(props)=>{
             get everyone to play along
         </div>
         <h2>
-            
+            Who Made This ? 
         </h2>
+        <div>
+            LightTag! LightTag makes tools to <a href="https://www.lighttag.io">label NLP data</a> with teams.
+        </div>
+        <h2>Click on Things in These Charts</h2>
         </div>
     )
 }

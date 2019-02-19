@@ -25,7 +25,7 @@ export const Dashboard = (props)=>{
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={8}>
+                    <Col md={7}>
                         <Row>
                             <Col md={12}>
                                 <MoveChart />
@@ -47,7 +47,7 @@ export const Dashboard = (props)=>{
                             </Col>
                         </Row>
                     </Col>
-                    <Col md={4} style={{overflowY:'scroll', maxHeight:'70vh', width:'100%'}}>
+                    <Col md={5} style={{overflowY:'scroll', maxHeight:'70vh', width:'100%'}}>
                         <DataTable />
                     </Col>
                 </Row>

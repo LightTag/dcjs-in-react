@@ -18,6 +18,6 @@ const dayOfWeekFunc = (divRef, ndx) => {
 }
 
 export const DayOfWeekChart = props => (
-    <ChartTemplate chartFunction={dayOfWeekFunc} />
+    <ChartTemplate chartFunction={dayOfWeekFunc} title="Weekday"/>
 )
 

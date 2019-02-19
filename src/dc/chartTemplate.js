@@ -7,23 +7,23 @@ import { css } from "glamor";
 const ResetButton = props => {
   const style = css({
     padding: rhythm(0.1),
-    background: "#dddd",
     display: "inline",
     cursor:'pointer',
+    float:'right',
     '&:hover':{
         background: "#ddd",
     }
   });
   return (
-    <div
+    <span
       {...style}
       onClick={() => {
         props.chart.filterAll();
         dc.redrawAll();
       }}
     >
-      Reset
-    </div>
+      reset
+    </span>
   );
 };
 export const ChartTemplate = props => {
@@ -43,13 +43,27 @@ export const ChartTemplate = props => {
     newChart.render();
     updateChart(newChart);
   },1); {/*Run this exactly once */}
+
+  const chartStyles  = css({
+    width:'100%',
+    height:'auto',
+    boxSizing:'border-box',
+    padding:rhythm(1),
+    '& label':{
+      textTransform:'capitalize',
+      textDecoration:'underline'
+
+    }
+
+  })
   return (
     <div
       ref={div}
-      style={{ width: "100%", minHeight: "100%" }}
-      {...props.styles}
+      {...chartStyles}
     >
+    
      <ResetButton chart={chart} /> 
+     <label>{props.title}</label>
     </div>
   );
 };

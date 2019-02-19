@@ -38,5 +38,5 @@ const gainOrLossChartFunc = (divRef, ndx) => {
 }
 
 export const GainOrLossChart = props => (
-    <ChartTemplate chartFunction={gainOrLossChartFunc} />
+    <ChartTemplate chartFunction={gainOrLossChartFunc} title="Gains or Losses"/>
 )

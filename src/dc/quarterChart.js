@@ -27,5 +27,5 @@ const quarterChartFunc = (divRef, ndx) => {
 }
 
 export const QuarterChart = props => (
-    <ChartTemplate chartFunction={quarterChartFunc} />
+    <ChartTemplate chartFunction={quarterChartFunc} title="Quarterly Breakdown" />
 )

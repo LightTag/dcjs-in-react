@@ -66,5 +66,5 @@ const moveChartFunc = (divRef, ndx) => {
 };
 
 export const MoveChart = props => (
-    <ChartTemplate chartFunction={moveChartFunc} />
+    <ChartTemplate chartFunction={moveChartFunc} title="Monthly Price Moves" />
 )

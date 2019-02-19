@@ -47,12 +47,12 @@ const style = css({
         }
     },
     '& td':{
-        padding:rhythm(0.25),
+        // padding:rhythm(0.1),
         textAlign:'left',
         borderTop:'1px solid #ddd',
         
     }
 })
 export const DataTable = props => (
-    <ChartTemplate chartFunction={tableFunc} styles={style} />
+    <ChartTemplate chartFunction={tableFunc} styles={style} title="Summary Table"/>
 )

@@ -81,5 +81,5 @@ const bubbleChartFunc = (divRef, ndx) => {
 
 };
 export const BubbleChart = props => (
-    <ChartTemplate chartFunction={bubbleChartFunc} />
+    <ChartTemplate chartFunction={bubbleChartFunc} title="Yearly Fluctuation"/>
 )

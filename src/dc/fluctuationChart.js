@@ -36,6 +36,6 @@ const fluctuationChartFunc = (divRef, ndx) => {
 }
 
 export const FluctuationChart = props => (
-    <ChartTemplate chartFunction={fluctuationChartFunc} />
+    <ChartTemplate chartFunction={fluctuationChartFunc} title="Return Distribution"/>
 )
 

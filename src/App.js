@@ -4,13 +4,18 @@ import {typography} from './utils/typography'
 import { Dashboard } from "./dc/dashboard";
 import { Welcome } from "./welcome";
 import { Grid } from "react-flexbox-grid";
+import { css } from "glamor";
 
 class App extends Component {
-  
+
   render() {
+    const style = css({
+      background: `#ddd`
+  
+    })
     typography.injectStyles()
     return (
-      <div className="App">
+      <div {...style}>
       <Grid>
       <Welcome />
         <Dashboard />
